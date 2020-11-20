@@ -4,6 +4,7 @@
     <HelloWorld msg="Hello World!"/>
     <AlertBtn />
     <BindingForm />
+    <Transitions />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import AlertBtn from './components/testComponent'
 import BindingForm from './components/testBinding'
+import Transitions from './components/testTransition'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     AlertBtn,
-    BindingForm
+    BindingForm,
+    Transitions
   }
 }
 </script>
